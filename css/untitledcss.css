@@ -1,0 +1,83 @@
+@import "/css/untitledmediacss.css";
+.heads {
+    grid-area:hd;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    padding: 20px;
+    padding: bottom 0px;
+    justify-content: space-evenly;
+    text-align:center;
+    float:center;
+    text-align: center;  
+    text-decoration: underline;
+}
+
+.inside {
+    line-height: .3;
+}
+
+.container {
+      display: flex;
+      flex-direction: row;
+      padding:auto;
+      justify-content: space-evenly;
+      float:center;
+      text-align: stretch;
+      margin:auto;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8ff;
+    color: 	#C0C0C0;
+    text-align: center;
+    
+}
+
+.row {
+    border: 2px inset;
+    padding:10px;
+}
+
+.row {
+    height:auto;
+    width:50%;
+    text-align: justify;
+    border: 5px solid #D3D3D3;
+    margin-left: 20px;
+    padding:20px;
+    
+}
+ 
+#world1 {
+    color:blue;
+ 
+}
+
+#world2 {
+    color:coral;
+}
+
+#footed {
+    padding-bottom: 25px;
+}
+ 
+#styling {
+    font-height:0.8 ;
+}
+ 
+#colouring {
+    color:grey; }
+    
+#foot {
+     margin-top: 20px;
+    padding-top:20px;
+}
+      
+
+
+

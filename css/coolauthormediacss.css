@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+    .containersome {
+        padding-top:25px;
+        align-content: center;
+    }
+}

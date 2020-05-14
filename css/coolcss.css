@@ -1,0 +1,76 @@
+@import "coolmediacss.css";
+.container {
+  display: grid;
+  width:90%;
+  margin:auto;
+  margin-top:10px;
+  grid-template-columns: 30px repeat(7,1fr);
+  grid-template-rows: 1em;
+  grid-template-areas:
+  "hd hd hd hd hd hd hd hd"
+  "main main main main main main sd sd"
+  "ft ft ft ft ft ft ft ft";
+  grid-gap:19px;
+}
+
+.beginning {
+  grid-area: main; 
+}
+.about {
+  grid-area: sd;
+  background-color: #CCFFFF;
+  width: auto;
+  border: 1px solid blue;
+  padding: 15px;
+  margin: 2px;
+}
+.heading {
+  grid-area:hd;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  padding: 20px;
+  padding: bottom 0px;
+  justify-content: space-evenly;
+  text-align:center;
+  float:center;
+  text-align: center;  
+  text-decoration: underline;
+}
+#subs {
+  align-content: flex-start;
+}
+#potter {
+  align-content: space-between ;
+  font-size:35px;
+}
+.footer {
+  grid-area:ft;
+  position:relative;
+  padding: 5px;
+  width: 100%;
+  background: rgb(200,200,200);
+  color: rgb(105,105,105);
+  text-align: center;
+}
+.sidebar {
+  grid-area:sd; 
+}
+.button {
+  border: none;
+  color: white;
+  padding:auto;
+  text-align: center;
+  text-decoration: honeydew;
+  display: inline-block;
+  font-size: 16px;
+}
+.image {
+  height: 120px;
+  width: auto;
+}
+.fig {
+  margin: auto;
+  border: 1px solid;
+  padding:15px;
+}

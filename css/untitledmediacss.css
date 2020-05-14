@@ -1,0 +1,97 @@
+@media only screen and (max-width: 600px){
+    .container {
+        display:flex;
+        flex-direction: column;
+    }
+    #potter {
+        font-size: 20px;
+        align-content: center;
+        margin:auto;     
+    }
+    #world1 {
+        font-size: 5px;
+    }
+    #world2 {
+        font-size: 5px;
+    }
+    .inside {
+        font-size: 3.0px !important;
+    }
+    .row {
+        width:70%
+    }
+    .heads {
+        display: flex;
+        flex-direction: initial;
+    }
+}
+
+
+@media  (max-width: 900px) {
+    .container {
+        display:flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #potter {
+        font-size: 20px !important;
+        align-content: center;
+        margin:auto;
+    }
+    .inside {
+        font-size:5.5px;
+    }
+    #styling {
+        font-size: 8px
+    }
+    #world1 {
+        font-size: 10px;
+    }
+    #world2 {
+        font-size: 10px;
+    }
+    #oneup {
+        font-size: 10px;
+    }
+    #footed {
+        font-size:8px;
+    }
+    #foot {
+        font-size:8px;
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width:){
+    .container {
+        display:flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    #potter {
+        font-size: 20px !important;
+        align-content: center;
+        margin:auto;
+    }
+    .inside {
+        font-size:7px;
+    }
+    #styling {
+        font-size: 8px
+    }
+    #world1 {
+        font-size: 10px;
+    }
+    #world2 {
+        font-size: 10px;
+    }
+    #oneup {
+        font-size: 10px;
+    }
+    #footed {
+        font-size:8px;
+    }
+    #foot {
+        font-size:8px;
+    }
+}  

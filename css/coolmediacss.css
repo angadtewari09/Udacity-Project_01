@@ -1,0 +1,45 @@
+@media only screen and (max-width: 600px) {
+    .body {
+      background-color: lightblue;
+      padding:5px;
+      font-size:10px;
+    }
+    
+    
+    .container { 
+      width:90%;
+      margin:auto;
+      margin-top:10px;
+      grid-template-columns: repeat(8,1fr);
+      grid-template-rows: 1em;
+      grid-template-areas:
+      "hd hd hd hd hd hd hd hd" /*size of header remains same*/
+      "main main main main sd sd sd sd" /*Equal distribution of space among the main content and the sidebar content*/
+      "ft ft ft ft ft ft ft ft";/*Size of footer also remains same*/
+      grid-gap:auto;
+    }
+    
+    
+    .sidebar .about {
+      grid-area: main !important;
+      background-color: #CCFFFF;
+      width: auto;
+      border: 1px solid blue;
+      padding: 15px;
+      margin: 2px;
+    }
+    
+    
+    #potter {
+        font-size:22.9px;
+    }
+
+    .body {
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    #del {
+      font-size:11px;
+      line-height: 0.1px;
+    }
+}

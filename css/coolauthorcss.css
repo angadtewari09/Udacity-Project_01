@@ -1,0 +1,46 @@
+@import "coolauthormediacss.css";
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border: 2px inset;  
+    border-radius: 50%;
+}
+.main {
+    display:grid;
+    width:90%;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    grid-template-columns:30px repeat(3 ,1fr);
+    grid-template-rows: 400px 1fr;
+    grid-template-areas:
+    "main main main main"
+    "ft ft ft ft";
+}
+
+.box {
+    grid-area: main;
+    text-align: center; 
+}
+
+.containersome {
+    padding: 25px 50px 25px;
+    border-radius:2% ;
+    padding-top:15px;
+    border: 15px solid green;
+    background-color: lightblue;
+    padding: 50px;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+    
+
+
+
+
+
+
