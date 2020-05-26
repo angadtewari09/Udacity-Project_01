@@ -1,4 +1,4 @@
-@import "/css/untitledmediacss.css";
+@import "untitledmediacss.css";
 .heads {
     grid-area:hd;
     display: flex;
